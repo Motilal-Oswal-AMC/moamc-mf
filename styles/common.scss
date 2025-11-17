@@ -653,6 +653,11 @@ main > .section.previous-studies-tab {
       // margin-bottom: 4px;
       margin: 0;
       border-radius: 8px;
+      background-color: #2c2a96;
+
+      @include media(mobile) {
+        height: 160px;
+      }
 
       div {
         &:first-child {
@@ -721,13 +726,13 @@ main > .section.previous-studies-tab {
       }
     }
 
-    .embed {
-      background-color: #2c2a96;
+    // .embed {
+    //   background-color: #2c2a96;
 
-      @include media(mobile) {
-        height: 160px;
-      }
-    }
+    //   @include media(mobile) {
+    //     height: 160px;
+    //   }
+    // }
   }
 
   .co-branding-wrapper {
