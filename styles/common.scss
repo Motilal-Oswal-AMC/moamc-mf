@@ -1545,3 +1545,22 @@ main>.section.previous-studies-tab.tabs-container {
 }
 
 // common breadcrumbs scss End
+
+
+// static QGLP component start
+.qglp-static-Component{
+  ul{
+    list-style: none;
+
+    li{
+
+
+    //  &::marker{
+    //     display: none;
+    //     content: none;
+    //   }
+
+    }
+  }
+}
+// static QGLP component end
