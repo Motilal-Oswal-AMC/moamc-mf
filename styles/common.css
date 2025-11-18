@@ -1195,4 +1195,8 @@ main > .section.previous-studies-tab.tabs-container .tab-dropdown-wrap .tab-drop
 }
 .section.breadcrumbs.slash-dsp-none li.breadli:nth-child(3) {
   display: none;
+}
+
+.qglp-static-Component ul {
+  list-style: none;
 }/*# sourceMappingURL=common.css.map */
