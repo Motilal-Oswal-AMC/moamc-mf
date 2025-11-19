@@ -3,7 +3,7 @@
 @use "../../styles/common-theme/css/fluid-typography"as *;
 
 // previous-studies start
-main .section.previous-studies-ctn.tabs-container {
+.section.previous-studies-ctn.tabs-container {
   margin-top: 0;
 
   @include media (mobile) {

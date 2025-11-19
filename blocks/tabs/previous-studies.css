@@ -1,9 +1,9 @@
 @import "../../../styles/fonts.css";
-main .section.previous-studies-ctn.tabs-container {
+.section.previous-studies-ctn.tabs-container {
   margin-top: 0;
 }
 @media (max-width: 768px) {
-  main .section.previous-studies-ctn.tabs-container {
+  .section.previous-studies-ctn.tabs-container {
     margin-top: 0;
   }
 }
