@@ -885,6 +885,7 @@ main > .section.previous-studies-tab.tabs-container .tab-dropdown-wrap .tab-drop
   background: var(--neutrals-white);
   height: 100px;
   overflow: auto;
+  padding: 2px 6px;
 }
 @media (max-width: 768px) {
   .prev-main-wrapper .co-branding-wrapper .comlist ul > li:nth-child(3) ul {
