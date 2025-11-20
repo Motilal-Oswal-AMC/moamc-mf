@@ -597,3 +597,24 @@ function qglpwcs() {
   }
 }
 dataMapMoObj.qglpwcs = qglpwcs;
+
+const chooseUs = document.querySelector('.why-choose-us');
+if (chooseUs != null) {
+  dataMapMoObj.CLASS_PREFIXES = [
+    'choose-title',
+    'choose-us-para',
+    'choose-us-img',
+  ];
+  dataMapMoObj.addIndexed(chooseUs);
+}
+
+const chooseusCard = document.querySelector('.why-choose-card');
+if (chooseusCard != null) {
+  dataMapMoObj.CLASS_PREFIXES = [
+    'card-image',
+    'card-title',
+    'card-subtitle',
+  ];
+  dataMapMoObj.addIndexed(chooseusCard);
+}
+
