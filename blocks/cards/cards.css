@@ -14,7 +14,7 @@
   padding: 0;
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(257px, 1fr));
-  grid-gap: 24px;
+  gap: 24px;
 }
 
 .cards>ul>li {
@@ -616,7 +616,6 @@ main.nfo-nav .main-wrapper .section:first-of-type {
 }
 
 @media screen and (width>768px) {
-
   .section.article-sub-right.subscribe-email .default-content-wrapper h1,
   .section.article-sub-right.subscribe-email .default-content-wrapper h2,
   .section.article-sub-right.subscribe-email .default-content-wrapper h3,
@@ -744,7 +743,6 @@ main.nfo-nav .main-wrapper .section:first-of-type {
 }
 
 @media screen and (width>768px) {
-
   .section.article-sub-right.recommended-posts .default-content-wrapper h1,
   .section.article-sub-right.recommended-posts .default-content-wrapper h2,
   .section.article-sub-right.recommended-posts .default-content-wrapper h3,
@@ -917,7 +915,7 @@ main.nfo-nav .main-wrapper .section:first-of-type {
 
 /* Investor Education - Our Podcast End */
 
-/* Wealth Study - Prevoius Studies start*/
+/* Wealth Study - Prevoius Studies start */
 
 .section.wcs-series-pdf .default-content-wrapper h1,
 .section.wcs-series-pdf .default-content-wrapper h2,
@@ -953,6 +951,7 @@ main.nfo-nav .main-wrapper .section:first-of-type {
   height: 190px;
 
   /* border-radius: 8px; */
+
   /* background-color: var(--blue-1-25); */
 }
 
@@ -1027,7 +1026,6 @@ main.nfo-nav .main-wrapper .section:first-of-type {
 }
 
 @media screen and (width <=768px) {
-
   .section.wcs-series-pdf.tabs-container .default-content-wrapper h1,
   .section.wcs-series-pdf.tabs-container .default-content-wrapper h2,
   .section.wcs-series-pdf.tabs-container .default-content-wrapper h3,
