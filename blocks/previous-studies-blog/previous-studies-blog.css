@@ -8,6 +8,12 @@ main .previous-studies-blog-container.section.previous-studies-each-details {
     justify-content: center;
   }
 }
+@media (max-width: 768px) and (max-width: 768px) {
+  main .previous-studies-blog-container.section.previous-studies-each-details .previous-studies-blog-wrapper .previous-studies-blog {
+    display: flex;
+    max-width: 340px;
+  }
+}
 main .previous-studies-blog-container.section.previous-studies-each-details .previous-studies-blog-wrapper .previous-studies-blog {
   max-width: 1232px;
   width: 100%;
@@ -26,9 +32,9 @@ main .previous-studies-blog-container.section.previous-studies-each-details .pre
 }
 main .previous-studies-blog-container.section.previous-studies-each-details .previous-studies-blog-wrapper .previous-studies-blog > .comlist .ps-in1 {
   max-width: 296px;
-  aspect-ratio: 1/1;
-  max-height: 296px;
   position: relative;
+  height: auto;
+  line-height: 0;
 }
 @media (max-width: 768px) {
   main .previous-studies-blog-container.section.previous-studies-each-details .previous-studies-blog-wrapper .previous-studies-blog > .comlist .ps-in1 {
@@ -54,7 +60,12 @@ main .previous-studies-blog-container.section.previous-studies-each-details .pre
   background-color: unset;
   color: unset;
   z-index: 5000;
-  border-radius: unset;
+  border-radius: var(--border-radius-8);
+}
+main .previous-studies-blog-container.section.previous-studies-each-details .previous-studies-blog-wrapper .previous-studies-blog > .comlist .ps-in1 .ps-subcont1 .ps-cont1 {
+  line-height: 0;
+  height: 100%;
+  display: block;
 }
 main .previous-studies-blog-container.section.previous-studies-each-details .previous-studies-blog-wrapper .previous-studies-blog > .comlist .ps-in2 {
   max-width: 296px;
@@ -127,17 +138,4 @@ main .previous-studies-blog-container.section.previous-studies-each-details .pre
 
 .section.previous-studies-each-details.hide-section {
   display: none;
-}
-
-@media (max-width: 768px) {
-  main .previous-studies-blog-container.section.previous-studies-each-details .previous-studies-blog-wrapper {
-    display: flex;
-    justify-content: center;
-  }
-}
-@media (max-width: 768px) and (max-width: 768px) {
-  main .previous-studies-blog-container.section.previous-studies-each-details .previous-studies-blog-wrapper .previous-studies-blog {
-    display: flex;
-    max-width: 340px;
-  }
 }/*# sourceMappingURL=previous-studies-blog.css.map */
