@@ -646,7 +646,7 @@ if (promiseQGLP != null) {
 const whyQGLPWrp = document.querySelector('.why-qglp .default-content-wrapper');
 
 if (whyQGLPWrp) {
-  whyQGLPWrp.classList.add("whyqglpWrapper");
+  whyQGLPWrp.classList.add("why-qglp-wrapper");
   // why qglp css lent end
 }
 // why qglp css lent end
@@ -655,7 +655,7 @@ if (whyQGLPWrp) {
 const promiseQGLPWrp = document.querySelector('.promise-qglp .default-content-wrapper');
 
 if (promiseQGLPWrp) {
-  promiseQGLPWrp.classList.add("promiseqglpWrapper");
+  promiseQGLPWrp.classList.add("promise-qglp-wrapper");
   // why qglp css lent end
 }
 // promise qglp css lent end
