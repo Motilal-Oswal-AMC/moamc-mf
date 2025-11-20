@@ -117,6 +117,7 @@
   width: 100%;
 }
 .section.our-experts-container .our-experts-wrapper .our-experts-cont2 .our-expert-section1 .our-expert-sub1 .floating-label-wrapper label {
+  display: none;
   position: absolute;
   top: 12px;
   left: 45px;
@@ -178,7 +179,7 @@
   border-radius: 6px;
   width: 96.9%;
   margin: 4px 0 0;
-  max-height: 300px;
+  height: 220px;
   overflow: auto;
   z-index: 10;
   margin-right: 16px;
