@@ -61,7 +61,7 @@ export default async function decorate(block) {
     })
   }
 
-  const eachStudiesBlog = document.querySelectorAll('.previous-studies-blog-wrapper .previous-studies-blog > .comlist')
+  const eachStudiesBlog = document.querySelectorAll('.previous-studies-blog-wrapper .previous-studies-blog > .comlist');
   eachStudiesBlog.forEach(ex => {
     const parent = ex.querySelector('.ps-in1');
     const toMove = ex.querySelector('.ps-in3');
@@ -70,5 +70,11 @@ export default async function decorate(block) {
         parent.appendChild(toMove); // move ps-in3 inside ps-in1
     }
 });
+
+const legendWord = document.querySelector('.section.previous-studies-ctn');
+
+if(legendWord){
+  legendWord.classList.add("legendWordCtn")
+}
 
 }

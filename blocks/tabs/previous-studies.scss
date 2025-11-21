@@ -3,8 +3,8 @@
 @use "../../styles/common-theme/css/fluid-typography"as *;
 
 // previous-studies start
-.section.previous-studies-ctn.tabs-container {
-  margin-top: 0;
+.section.previous-studies-ctn.tabs-container.legendWordCtn {
+  margin-top: 106px;
 
   @include media (mobile) {
     margin-top: 0;
@@ -25,7 +25,7 @@
   }
 
   .default-content-wrapper.previous-studies-ex1 {
-    padding: 40px 0;
+    padding: 0 0 40px 0;
     margin-top: 33px;
 
     @include media(mobile) {
