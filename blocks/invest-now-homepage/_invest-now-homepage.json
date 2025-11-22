@@ -86,7 +86,7 @@
         },
         {
           "component": "select",
-          "name": "col3_end_date-default",
+          "name": "col3_end-date-default",
           "label": "Default End Date",
           "value": "Until I cancel",
           "options": [

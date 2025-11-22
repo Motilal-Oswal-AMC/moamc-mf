@@ -33,13 +33,13 @@
         },
         {
           "component": "richtext",
-          "name": "Play Icons",
+          "name": "play_icons",
           "label": "MoEdge Article video play icon",
           "value": ""
         },
         {
           "component": "richtext",
-          "name": "Download Analysis",
+          "name": "download_analysis",
           "value": "",
           "label": "Read the complete report Only Mobile View",
           "valueType": "string"

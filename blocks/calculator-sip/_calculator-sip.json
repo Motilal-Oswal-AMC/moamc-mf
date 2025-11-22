@@ -157,13 +157,13 @@
         },
         {
           "component": "text",
-          "name": "col4_other-calculators-text",
+          "name": "col5_other-calculators-text",
           "label": "Other Calculators Link Text",
           "value": "View other calculators"
         },
         {
           "component": "text",
-          "name": "col4_other-calculators-url",
+          "name": "col5_other-calculators-url",
           "label": "Other Calculators URL",
           "value": "#"
         }

@@ -22,7 +22,7 @@
       "fields": [
         {
           "component": "text",
-          "name": "Col1 Name",
+          "name": "col1_name",
           "label": "Brands name"
         },
         {

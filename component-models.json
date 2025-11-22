@@ -309,13 +309,13 @@
       },
       {
         "component": "text",
-        "name": "col4_other-calculators-text",
+        "name": "col5_other-calculators-text",
         "label": "Other Calculators Link Text",
         "value": "View other calculators"
       },
       {
         "component": "text",
-        "name": "col4_other-calculators-url",
+        "name": "col5_other-calculators-url",
         "label": "Other Calculators URL",
         "value": "#"
       }
@@ -1038,7 +1038,7 @@
       },
       {
         "component": "select",
-        "name": "col3_end_date-default",
+        "name": "col3_end-date-default",
         "label": "Default End Date",
         "value": "Until I cancel",
         "options": [
@@ -1185,7 +1185,7 @@
     "fields": [
       {
         "component": "text",
-        "name": "Col1 Name",
+        "name": "col1_name",
         "label": "Brands name"
       },
       {
@@ -1251,13 +1251,13 @@
       },
       {
         "component": "richtext",
-        "name": "Play Icons",
+        "name": "play_icons",
         "label": "MoEdge Article video play icon",
         "value": ""
       },
       {
         "component": "richtext",
-        "name": "Download Analysis",
+        "name": "download_analysis",
         "value": "",
         "label": "Read the complete report Only Mobile View",
         "valueType": "string"
@@ -1683,7 +1683,7 @@
       },
       {
         "component": "aem-content",
-        "name": "Two link",
+        "name": "two_link",
         "label": "Fragment URL"
       }
     ]

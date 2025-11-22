@@ -48,7 +48,7 @@
         },
         {
           "component": "aem-content",
-          "name": "Two link",
+          "name": "two_link",
           "label": "Fragment URL"
         }
       ]
