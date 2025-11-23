@@ -179,6 +179,10 @@
             "value": "nri-heo"
           },
           {
+            "name": "NRI Accordion",
+            "value": "nri-accordion"
+          },
+          {
             "name": "Calculators Card",
             "value": "calculators-card"
           },
