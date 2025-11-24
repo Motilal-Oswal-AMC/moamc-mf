@@ -840,6 +840,8 @@ export default async function decorate(block) {
         elchild.remove();
       }
     });
+    mainwrapper.querySelector('.decoding-qglp img')
+      .setAttribute('fetchpriority', 'high');
   }
 
   // previous studies tab start
