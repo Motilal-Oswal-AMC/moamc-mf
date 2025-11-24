@@ -5,6 +5,8 @@
 @import "../blocks/moedge-article-details/moedge-article-details.css";
 @import '../blocks/Investor-details/investor-details.css';
 
+@import "../blocks/error-screen/error-screen.css";
+
 .section.download {
   width: 100%;
   max-width: 100%;
@@ -412,7 +414,7 @@ main .section.wcs-landing.section.embed-container {
   max-width: 1232px;
   margin: 0 auto;
   margin-top: 16px;
-  padding-top: 80px;
+  padding-top: 40px;
   display: flex;
   justify-content: space-between;
   margin-bottom: 91px;
@@ -423,7 +425,7 @@ main .section.wcs-landing.section.embed-container {
     margin-top: 0;
     display: flex;
     flex-direction: column;
-    padding-top: 56px;
+    padding-top: 40px;
     position: relative;
     margin-bottom: 100px;
   }
@@ -522,8 +524,8 @@ main .section.wcs-landing.section.embed-container {
   max-height: 341.083px;
   height: 100%;
   margin: 0;
-  border-radius: 5.948px;
   overflow: hidden;
+  border-radius: 10.637px;
 }
 
 @media (width <= 768px) {
@@ -541,6 +543,11 @@ main .section.wcs-landing.section.embed-container {
     padding-bottom: 28px;
   }
 }
+@media (max-width: 768px) {
+  .wcs-landing.section.embed-container .wcs2 .embed > div {
+    border-radius: 10.637px;
+  }
+}
 
 .modal.block .modal-content {
   max-height: 100%;
@@ -552,7 +559,7 @@ main > .section.previous-studies-tab.tabs-container {
   max-width: 1232px;
   width: 100%;
   margin: 0 auto;
-  margin-top: 0;
+  margin-top: 5px;
   position: relative;
 }
 
@@ -568,7 +575,7 @@ main > .section.previous-studies-tab.tabs-container > .default-content-wrapper:f
 
 @media (width <= 768px) {
   main > .section.previous-studies-tab.tabs-container > .default-content-wrapper:first-child {
-    padding-top: 24px;
+    padding-top: 40px;
     margin-top: unset;
   }
 }
@@ -582,7 +589,6 @@ main > .section.previous-studies-tab.tabs-container > .default-content-wrapper:f
   line-height: var(--heading-h1-line-height);
   margin: 0;
   padding-top: 40px;
-  margin-top: 16px;
 }
 
 @media (width <= 768px) {
@@ -614,7 +620,7 @@ main > .section.previous-studies-tab.tabs-container .tab-dropdown-wrap {
   right: 0;
   cursor: pointer;
   top: 8px;
-  padding: 71px 0;
+  padding: 61px 0;
 }
 
 @media (width <= 768px) {
@@ -2156,8 +2162,11 @@ main.nfo-nav .section.decoding-qglp-container.decoding-qglp-static .decoding-qgl
     margin-top: 0;
   }
 }
-
-.section.skin-moamc-component .moamc-component-main-head2 .moamc-component-title1 .moamc-component-para1 .moamc-component-para-one1, .section.skin-moamc-component .moamc-component-main-head2 .moamc-component-title1 .moamc-component-para1 .moamc-component-para-one2, .section.skin-moamc-component .moamc-component-main-head2 .moamc-component-title1 .moamc-component-para1 .moamc-component-para-one3, .section.skin-moamc-component .moamc-component-main-head2 .moamc-component-title1 .moamc-component-para1 .moamc-component-para-one4, .section.skin-moamc-component .moamc-component-main-head2 .moamc-component-title1 .moamc-component-para1 .moamc-component-para-two1,
+.section.skin-moamc-component .moamc-component-main-head2 .moamc-component-title1 .moamc-component-para1 .moamc-component-para-one1,
+.section.skin-moamc-component .moamc-component-main-head2 .moamc-component-title1 .moamc-component-para1 .moamc-component-para-one2,
+.section.skin-moamc-component .moamc-component-main-head2 .moamc-component-title1 .moamc-component-para1 .moamc-component-para-one3,
+.section.skin-moamc-component .moamc-component-main-head2 .moamc-component-title1 .moamc-component-para1 .moamc-component-para-one4,
+.section.skin-moamc-component .moamc-component-main-head2 .moamc-component-title1 .moamc-component-para1 .moamc-component-para-two1,
 .section.skin-moamc-component .moamc-component-main-head2 .moamc-component-title1 .moamc-component-title1 .moamc-component-para1 .moamc-component-para-one1,
 .section.skin-moamc-component .moamc-component-main-head2 .moamc-component-title1 .moamc-component-title1 .moamc-component-para1 .moamc-component-para-one2,
 .section.skin-moamc-component .moamc-component-main-head2 .moamc-component-title1 .moamc-component-title1 .moamc-component-para1 .moamc-component-para-one3,
