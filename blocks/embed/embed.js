@@ -174,7 +174,7 @@ export default function decorate(block) {
       wrapper.prepend(placeholder);
       wrapper.addEventListener('click', async (event) => {
         if (block.closest('.article-left-wrapper')) {
-          //investor atricle detail
+          // investor atricle detail
 
           const videoContainer = document.createElement('div');
           // videoContainer.append(block);
@@ -231,6 +231,9 @@ export default function decorate(block) {
           );
           dataMapMoObj.CLASS_PREFIXES = ['embed-main', 'embed-inner', 'embed-subitem', 'embed-childitem', 'embed-childinner'];
           dataMapMoObj.addIndexed(valueAry[index][inner]);
+          Array.from(valueAry[index][inner].querySelectorAll('img')).forEach((el) => {
+            dataMapMoObj.altFunction(el, `subbinner-${index + 1}-img`);
+          });
           if (index === 0) {
             valueAry[index][inner].style.display = 'flex';
           }
