@@ -254,7 +254,7 @@ export default function decorate(block) {
   }
 
   // Error Screen adding
-  const error = block.closest('.section.cards-container');
+  const error = block.closest('.section.screen-400, .section.screen-401, .section.screen-403, .section.screen-408, .section.screen-500, .section.service-screen');
   if (error) {
       const newEle = document.createElement('div');
       newEle.classList.add('errscn-txtwrap')
