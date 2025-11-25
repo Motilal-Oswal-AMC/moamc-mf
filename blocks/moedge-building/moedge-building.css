@@ -289,6 +289,12 @@
   font-weight: 500;
   line-height: 18px;
 }
+@media (max-width: 768px) {
+  .moedge-building-container[data-id=listing-article-cards] .pagination-wrapper {
+    padding: 5px 0;
+    margin: 16px auto var(--spacing-80);
+  }
+}
 
 @media (width >= 900px) {
   .moedge-building {

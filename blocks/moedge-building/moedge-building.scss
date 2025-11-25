@@ -341,6 +341,15 @@
             font-weight: 500;
             line-height: 18px;
         }
+
+        &[data-id='listing-article-cards']{
+            .pagination-wrapper{
+                @include media(mobile){
+                    padding: 5px 0;
+                    margin: 16px auto var(--spacing-80);
+                }
+            }
+        }
     }
 }
 
