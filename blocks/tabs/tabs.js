@@ -55,6 +55,19 @@ export default async function decorate(block) {
         tabpanel.querySelector(`#${attr} .section`).style.display = 'block';
         tabpanel.querySelector(`#${attr} .section`).style.display = 'flex';
       }
+
+      // Investor Landing - Our Service Tab Gradient
+      const ourServiceTab = block.closest('main').querySelector('.our-service.block');
+      if (ourServiceTab !== null) {
+        const ourServiceTabList = ourServiceTab.querySelector('.tabs-list');
+        if ((Array.from(ourServiceTabList.children).length - 3) > i) {
+          ourServiceTab.classList.add('gradient-show');
+          ourServiceTabList.children[i].setAttribute('aria-selected', true);
+        } else {
+          ourServiceTab.classList.remove('gradient-show');
+          ourServiceTabList.children[i].setAttribute('aria-selected', true);
+        }
+      }
     });
     tablist.append(tabbtn);
     tab.remove();
