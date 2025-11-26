@@ -341,7 +341,7 @@
         padding: 0;
     }
 
-    .default-content-wrapper {
+    .default-content-wrapper:first-of-type {
         padding: 0;
         
         @include media(mobile) {
