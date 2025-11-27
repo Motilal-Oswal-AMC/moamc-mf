@@ -15,6 +15,7 @@
 
   ],
   "includes": [
-    "/content/mosleds/"
+    "/content/mosleds/",
+    "/content/moamc-eds/"
   ]
 }
