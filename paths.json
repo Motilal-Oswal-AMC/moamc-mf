@@ -1,6 +1,7 @@
 {
   "mappings": [
-    "/content/moamc-eds/:/",
+    "/content/motilal-amc-dev/:/",
+    "/content/motilal-amc-dev/:/",
     "/content/moamc-eds/configuration:/.helix/config.json",
     "/content/moamc-eds/metadata:/metadata.json",
     "/content/moamc-eds/mutual-fund/in/api/faq:/api/faq.json",
@@ -12,6 +13,6 @@
 
   ],
   "includes": [
-    "/content/moamc-eds/"
+    "/content/motilal-amc-dev/"
   ]
 }
