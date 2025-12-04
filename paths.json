@@ -1,5 +1,6 @@
 {
   "mappings": [
+    "/content/motilal-amc-dev/:/",
     "/content/moamc-eds/:/",
     "/content/moamc-eds/configuration:/.helix/config.json",
     "/content/moamc-eds/metadata:/metadata.json",
@@ -12,6 +13,6 @@
 
   ],
   "includes": [
-    "/content/moamc-eds/"
+    "/content/motilal-amc-dev/"
   ]
 }
